@@ -1,0 +1,17 @@
+databases:
+  active_db: "postgres" #"mysql" "postgres"
+repository:
+  client: com.ism.Repositories.JPA.ClientRepoJpa
+  article: com.ism.Repositories.JPA.ArticleRepoJpa
+  commande: com.ism.Repositories.JPA.CommandeRepoJpa
+  articleCommande : com.ism.Repositories.JPA.ArticleCommandeRepoJpa
+service:
+  client: com.ism.Service.ClientService
+  article: com.ism.Service.ArticleService
+  commande: com.ism.Service.CommandeService
+  articleCommande: com.ism.Service.ArticleCommandeService
+
+view:
+  client: com.ism.Views.ClientViews
+  commande: com.ism.Views.CommandeViews
+  article: com.ism.Views.ArticleViews
